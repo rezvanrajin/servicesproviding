@@ -1,0 +1,30 @@
+.star-rating {
+    border:solid 1px #ccc;
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:1.7em;
+    justify-content:space-around;
+    padding:0.2em;
+    text-align:center;
+    width:7em;
+    border: none;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+    font-size:25px;
+  }
+  
+  .star-rating :checked ~ label {
+    color:#93a82d;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:#93a82d;
+  }

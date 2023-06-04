@@ -1,0 +1,3480 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk";
+  src: url("../fonts/Poppins-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* line 4, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins";
+  color: #222222;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* line 16, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+p {
+  line-height: 17px;
+  font-size: 14px;
+}
+
+/* line 21, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+a {
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+/* line 26, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+a:hover {
+  color: #93a82d;
+}
+
+/* line 30, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+p,
+a,
+h1,
+h2,
+h4,
+h3,
+h5 {
+  color: #222222;
+  margin: 0;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif !important;
+}
+
+/* line 43, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 48, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+li {
+  list-style: none;
+}
+
+/* line 52, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 56, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 63, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.btn:focus,
+button:focus,
+button:active:focus,
+button.nice-select.open:focus,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.focus.nice-select.open,
+.btn:active:focus,
+.btn.nice-select.open:focus,
+.btn:focus,
+.navbar-toggler:focus,
+.input-group .btn:focus,
+input.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* line 79, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+table {
+  width: 100%;
+}
+
+/* line 83, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.form-control {
+  box-shadow: none;
+  outline: 0;
+}
+
+/* line 87, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.form-control:focus {
+  box-shadow: none;
+}
+
+/* line 93, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.m-0 {
+  margin: 0 !important;
+}
+
+/* line 97, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+/* line 101, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+/* line 105, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 109, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 113, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* line 117, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+/* line 121, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-20 {
+  margin-top: 20px;
+}
+
+/* line 125, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+/* line 129, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* line 133, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/* line 137, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-40 {
+  margin-top: 40px;
+}
+
+/* line 141, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+/* line 145, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-50 {
+  margin-top: 50px;
+}
+
+/* line 149, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+/* line 153, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-60 {
+  margin-top: 60px;
+}
+
+/* line 157, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+/* line 161, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-75 {
+  margin-top: 75px;
+}
+
+/* line 165, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-75 {
+  margin-bottom: 75px;
+}
+
+/* line 169, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-90 {
+  margin-top: 90px;
+}
+
+/* line 173, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-90 {
+  margin-bottom: 90px;
+}
+
+/* line 177, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mt-95 {
+  margin-top: 95px;
+}
+
+/* line 181, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.mb-95 {
+  margin-bottom: 95px;
+}
+
+/* line 186, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.p-0 {
+  padding: 0 !important;
+}
+
+/* line 190, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* line 194, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+/* line 198, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+/* line 202, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+/* line 206, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-20 {
+  padding-top: 20px;
+}
+
+/* line 210, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+/* line 213, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.p-20 {
+  padding: 20px;
+}
+
+/* line 216, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-30 {
+  padding-top: 30px;
+}
+
+/* line 220, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+/* line 224, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-40 {
+  padding-top: 40px;
+}
+
+/* line 228, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+/* line 232, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-50 {
+  padding-top: 50px;
+}
+
+/* line 236, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+/* line 240, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-60 {
+  padding-top: 60px;
+}
+
+/* line 244, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+/* line 248, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-70 {
+  padding-top: 70px;
+}
+
+/* line 252, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+/* line 256, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-80 {
+  padding-top: 80px;
+}
+
+/* line 260, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-90 {
+  padding-top: 90px;
+}
+
+@media (max-width: 767px) {
+  /* line 260, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-90 {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 260, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-90 {
+    padding-top: 120px;
+  }
+}
+
+/* line 270, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+@media (max-width: 767px) {
+  /* line 270, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-90 {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 270, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-90 {
+    padding-bottom: 120px;
+  }
+}
+
+/* line 280, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-100 {
+  padding-top: 100px;
+}
+
+@media (max-width: 767px) {
+  /* line 280, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-100 {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 280, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-100 {
+    padding-top: 120px;
+  }
+}
+
+/* line 290, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+  /* line 290, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-100 {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 290, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-100 {
+    padding-bottom: 120px;
+  }
+}
+
+/* line 300, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pt-120 {
+  padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+  /* line 300, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-120 {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 300, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pt-120 {
+    padding-top: 180px;
+  }
+}
+
+/* line 310, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+@media (max-width: 767px) {
+  /* line 310, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-120 {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 1500px) {
+  /* line 310, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .pb-120 {
+    padding-bottom: 180px;
+  }
+}
+
+/* line 321, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.clear:after {
+  content: "";
+  overflow: hidden;
+  clear: both;
+  display: block;
+}
+
+/* line 329, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.capitalize {
+  text-transform: capitalize !important;
+}
+
+/* line 333, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+/* line 337, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.width-100 {
+  width: 100%;
+}
+
+/* line 345, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 354, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title .title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 46px;
+}
+
+/* line 359, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title::before {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 65px;
+  background: #93a82d;
+  left: 0;
+  bottom: -3px;
+  border-radius: 10px;
+}
+
+/* line 369, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title .section-btn {
+  position: relative;
+  font-size: 18px;
+  padding-right: 20px;
+  transition: all 0.3s ease;
+}
+
+/* line 375, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title .section-btn::after {
+  content: url("../images/arrow-right-black.svg");
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 382, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.section-title .section-btn:hover::after {
+  content: url("../images/arrow-right-hover-two.svg");
+}
+
+@media (min-width: 1500px) {
+  /* line 388, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .title {
+    font-size: 40px;
+  }
+  /* line 391, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .section-btn {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 345, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title {
+    align-items: baseline;
+  }
+  /* line 397, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  /* line 401, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .section-btn {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 375px) {
+  /* line 407, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .title {
+    font-size: 22px;
+  }
+  /* line 410, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .section-title .section-btn {
+    font-size: 14px;
+  }
+}
+
+/* line 416, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-btn {
+  background: #93a82d;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  line-height: 34px;
+  padding: 10px 35px;
+  transition: all 0.3s ease-in;
+}
+
+/* line 429, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-btn:hover {
+  color: #ffffff;
+}
+
+/* line 433, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-btn-outline {
+  font-size: 15px;
+  background: transparent;
+  color: #93a82d;
+  border: 2px solid #93a82d;
+  padding: 2px 20px;
+}
+
+/* line 439, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-btn-outline:hover {
+  background: #93a82d;
+}
+
+/* line 443, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.btn-small {
+  padding: 4px 20px;
+  font-size: 15px;
+}
+
+/* line 449, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.reviews {
+  font-size: 12px;
+  color: #999999;
+}
+
+/* line 452, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.reviews:hover {
+  color: none;
+}
+
+/* line 455, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.reviews .active {
+  color: #93a82d;
+}
+
+/* line 461, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-title {
+  font-size: 18px;
+  line-height: 28px;
+  transition: all 0.3s;
+  margin-bottom: 0;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* line 471, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-title a {
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+/* line 476, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.common-pera {
+  color: #666666;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 26px;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+/* line 489, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 16px;
+  width: 50px;
+  height: 50px;
+  background-color: #93a82d;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  z-index: 99;
+  font-size: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.4s;
+}
+
+/* line 505, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.back-to-top i {
+  color: #fff;
+}
+
+/* line 509, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.back-to-top.active {
+  bottom: 32px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* line 517, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.shopping-cart-wrap {
+  position: fixed;
+  right: 0;
+  top: 40%;
+  z-index: 9999;
+}
+
+/* line 522, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.shopping-cart-wrap a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #00a651;
+  border-radius: 0;
+  color: #fff;
+  line-height: 50px;
+}
+
+/* line 538, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single {
+  position: relative;
+}
+
+/* line 540, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single .login-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: #222222;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+
+/* line 548, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single .form--control {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px 0 40px;
+  border: 1px solid #dddddd;
+  width: 100%;
+  font-size: 14px;
+  line-height: 22px;
+  box-shadow: 0 0 15px #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+/* line 559, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single .form--control:focus {
+  box-shadow: 0 0 10px #93a801;
+}
+
+/* line 562, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single .form--control:focus-visible {
+  outline: none;
+}
+
+/* line 568, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single .login-icon i {
+  position: absolute;
+  top: 58px;
+  left: 15px;
+  font-size: 16px;
+  color: #93a82d;
+}
+
+/* line 577, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .input-single textarea {
+  padding-top: 15px !important;
+  height: 160px !important;
+}
+
+/* line 582, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* line 587, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .checkbox-inlines {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  gap: 10px;
+}
+
+/* line 592, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .checkbox-inlines input[type="checkbox"] {
+  accent-color: #93a82d;
+}
+
+/* line 595, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .checkbox-inlines .check-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 18px;
+  min-width: 18px;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  margin-top: 3px;
+  transition: all 0.3s;
+}
+
+/* line 609, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .checkbox-inlines .checkbox-label {
+  font-size: 14px;
+  color: #666666;
+}
+
+/* line 615, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .forgot-btn a {
+  color: #666666;
+}
+
+/* line 617, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .login-checkbox .forgot-btn a:hover {
+  color: #93a82d;
+}
+
+/* line 623, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .submit {
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* line 627, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form input[type="submit"] {
+  border: none;
+}
+
+/* line 630, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .bottom-register {
+  display: block;
+  font-size: 14px;
+}
+
+/* line 633, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.login-form .bottom-register .resgister-link {
+  font-weight: 500;
+}
+
+/* line 642, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area {
+  background-color: #f1f6ff;
+}
+
+/* line 645, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .inner-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+/* line 650, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .inner-menu li {
+  position: relative;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  transition: all 0.3s;
+}
+
+/* line 657, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .inner-menu li:not(:first-child) {
+  padding-left: 15px;
+}
+
+/* line 659, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .inner-menu li:not(:first-child)::before {
+  position: absolute;
+  content: "";
+  height: 40%;
+  width: 1px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #222222;
+}
+
+/* line 670, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .inner-menu li:not(:last-child) {
+  padding-right: 15px;
+}
+
+/* line 675, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+.banner-inner-area .banner-inner-contents .banner-inner-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+@media (max-width: 767px) {
+  /* line 683, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .banner-inner-area .banner-inner-contents .inner-menu {
+    margin-bottom: 15px;
+  }
+  /* line 685, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .banner-inner-area .banner-inner-contents .inner-menu li {
+    font-size: 14px;
+  }
+  /* line 688, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .banner-inner-area .banner-inner-contents .inner-menu li:not(:first-child) {
+    padding-left: 10px;
+  }
+  /* line 691, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .banner-inner-area .banner-inner-contents .inner-menu li:not(:last-child) {
+    padding-right: 10px;
+  }
+  /* line 696, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/_reset.scss */
+  .banner-inner-area .banner-inner-contents .banner-inner-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+/* line 18, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #e8e8e8;
+  box-sizing: border-box;
+  clear: both;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  height: 42px;
+  line-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 30px;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  white-space: nowrap;
+  width: auto;
+}
+
+/* line 42, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select:hover {
+  border-color: #dbdbdb;
+}
+
+/* line 45, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select:active, .nice-select.open, .nice-select:focus {
+  border-color: #999;
+}
+
+/* line 49, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select:after {
+  border-bottom: 2px solid #999;
+  border-right: 2px solid #999;
+  content: '';
+  display: block;
+  height: 5px;
+  margin-top: -4px;
+  pointer-events: none;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform-origin: 66% 66%;
+  transform: rotate(45deg);
+  transition: all 0.15s ease-in-out;
+  width: 5px;
+}
+
+/* line 68, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.open:after {
+  transform: rotate(-135deg);
+}
+
+/* line 71, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.open .list {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1) translateY(0);
+}
+
+/* line 77, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.disabled {
+  border-color: #ededed;
+  color: #999;
+  pointer-events: none;
+}
+
+/* line 81, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.disabled:after {
+  border-color: #cccccc;
+}
+
+/* line 87, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.wide {
+  width: 100%;
+}
+
+/* line 89, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.wide .list {
+  left: 0 !important;
+  right: 0 !important;
+}
+
+/* line 94, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.right {
+  float: right;
+}
+
+/* line 96, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.right .list {
+  left: auto;
+  right: 0;
+}
+
+/* line 101, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.small {
+  font-size: 12px;
+  height: 36px;
+  line-height: 34px;
+}
+
+/* line 105, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.small:after {
+  height: 4px;
+  width: 4px;
+}
+
+/* line 109, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select.small .option {
+  line-height: 34px;
+  min-height: 34px;
+}
+
+/* line 116, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .list {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px rgba(68, 68, 68, 0.11);
+  box-sizing: border-box;
+  margin-top: 4px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform-origin: 50% 0;
+  transform: scale(0.75) translateY(-21px);
+  transition: all 0.2s cubic-bezier(0.5, 0, 0, 1.25), opacity 0.15s ease-out;
+  z-index: 9;
+}
+
+/* line 132, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .list:hover .option:not(:hover) {
+  background-color: transparent !important;
+}
+
+/* line 136, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .option {
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 40px;
+  list-style: none;
+  min-height: 40px;
+  outline: none;
+  padding-left: 18px;
+  padding-right: 29px;
+  text-align: left;
+  transition: all 0.2s;
+}
+
+/* line 147, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+  background-color: #f6f6f6;
+}
+
+/* line 150, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .option.selected {
+  font-weight: bold;
+}
+
+/* line 153, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.nice-select .option.disabled {
+  background-color: transparent;
+  color: #999;
+  cursor: default;
+}
+
+/* line 163, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.no-csspointerevents .nice-select .list {
+  display: none;
+}
+
+/* line 167, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/lib/nice-select/scss/nice-select.scss */
+.no-csspointerevents .nice-select.open .list {
+  display: block;
+}
+
+/* line 9, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 19, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar {
+  position: relative;
+  padding: 20px 0;
+}
+
+/* line 23, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .nav-absolute {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0;
+  z-index: 9;
+}
+
+/* line 30, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-brand img {
+  width: 170px;
+}
+
+/* line 34, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+/* line 36, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #222222;
+  transition: 0.3s ease;
+}
+
+/* line 42, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .nav-link i {
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* line 47, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .nav-link:hover, .menu_wrapper .navbar-nav .nav-item .nav-link:focus, .menu_wrapper .navbar-nav .nav-item .nav-linkactive {
+  color: #00a651;
+}
+
+/* line 53, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .dropdown-custom {
+  margin-left: 20px;
+}
+
+/* line 56, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: 0;
+  content: url("../images/down-arrow-black.svg");
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+/* line 67, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .dropdown-toggle:hover:after {
+  content: url("../images/down-arrow-hover.svg");
+}
+
+/* line 72, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .nav-item .dropdown-toggle-custom:hover:after {
+  content: url("../images/down-arrow-white.svg");
+}
+
+/* line 79, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .dropdown-menu {
+  position: absolute;
+  padding: 10px 20px;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* line 85, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .dropdown-menu .dropdown-item {
+  padding: 15px;
+  transition: 0.3s ease;
+}
+
+/* line 88, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.menu_wrapper .navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 96, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar-brand img {
+    width: 120px;
+  }
+  /* line 99, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar-collapse {
+    margin-top: 30px;
+    padding-top: 20px;
+    position: relative;
+    vertical-align: middle;
+    background: #f1f6ff;
+  }
+  /* line 105, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar-collapse .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  /* line 109, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar-collapse .navbar-nav .nav-item {
+    margin: 5px 10px;
+  }
+  /* line 119, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .acount-info .navbar-nav .nav-item {
+    padding-bottom: 20px;
+  }
+  /* line 121, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .acount-info .navbar-nav .nav-item span {
+    display: none;
+  }
+  /* line 124, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .acount-info .navbar-nav .nav-item i {
+    font-size: 50px;
+    line-height: 60px;
+    color: #222222;
+  }
+  /* line 128, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .acount-info .navbar-nav .nav-item i:hover {
+    color: #00a651;
+  }
+  /* line 135, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar {
+    justify-content: center;
+  }
+  /* line 138, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .menu_wrapper .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 15px;
+  }
+}
+
+/* line 150, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(45deg, #ebfaa2 0%, #cff02b 100%);
+  padding: 120px 0 120px;
+  height: 100vh;
+}
+
+/* line 158, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents {
+  position: relative;
+  z-index: 2;
+}
+
+/* line 162, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-left-thumb img {
+  max-width: 100%;
+  border-radius: 50%;
+  border: 25px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 168, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background: #fff;
+  min-width: 310px;
+  border-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  top: auto;
+  right: auto;
+  z-index: 9;
+}
+
+/* line 184, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service::before {
+  position: absolute;
+  content: "";
+  left: auto;
+  right: 50px;
+  top: -21px;
+  bottom: auto;
+  width: 0;
+  height: 0;
+  border-top: 0;
+  border-bottom: 21px solid #fff;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+/* line 198, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service .icon {
+  min-height: 80px;
+  min-width: 80px;
+  background: #00a651;
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+/* line 213, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service .icon-contents .thumb-title a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* line 218, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service .icon-contents .thumb-review {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* line 223, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service .icon-contents .thumb-review li {
+  color: #00a651;
+}
+
+/* line 225, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-left-contents .banner-cleaning-service .icon-contents .thumb-review li:not(:last-child) {
+  margin-right: 3px;
+}
+
+/* line 234, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-title {
+  font-size: 65px;
+  line-height: 80px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* line 239, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-title span {
+  color: #00a651;
+}
+
+/* line 243, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .title-top {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  display: block;
+}
+
+/* line 251, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents {
+  margin-top: 45px;
+}
+
+/* line 254, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form {
+  display: block;
+  max-width: 100%;
+}
+
+/* line 257, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .header_form_select_wrap {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+/* line 261, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .header_form_select_wrap .banner-address-select {
+  height: 50px;
+  background: #fff;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+@media (max-width: 420px) {
+  /* line 257, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .header_form_select_wrap {
+    flex-direction: column;
+  }
+  /* line 271, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .header_form_select_wrap .banner-address-select {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 277, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #e9e9e9;
+  color: #222222;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 289, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .current {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #222222;
+  text-transform: capitalize;
+  padding-left: 20px;
+}
+
+@media (min-width: 1550px) {
+  /* line 289, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .current {
+    font-size: 16px;
+  }
+}
+
+/* line 302, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .option {
+  font-size: 16px;
+  font-weight: 400;
+  color: #222222;
+}
+
+@media (min-width: 1550px) {
+  /* line 302, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .option {
+    font-size: 16px;
+  }
+}
+
+/* line 311, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .option:hover {
+  background: #e9e9e9;
+  color: #222222;
+}
+
+/* line 317, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select:after {
+  content: "";
+  right: 25px;
+  border-bottom: 2px solid #222;
+  border-right: 2px solid #222;
+  height: 9px;
+  width: 9px;
+  transform: translateY(-50%) rotate(45deg);
+  margin-top: 0;
+}
+
+/* line 329, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select.open:after {
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+/* line 334, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .list {
+  z-index: 100;
+}
+
+/* line 337, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .list .option.selected.focus {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media (min-width: 1550px) {
+  /* line 337, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .nice-select .list .option.selected.focus {
+    font-size: 16px;
+  }
+}
+
+/* line 348, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input {
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  flex: 1;
+}
+
+/* line 355, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .form-control {
+  height: 80px;
+  line-height: 80px;
+  background: #fff;
+  width: 100%;
+  padding: 0 20px 0 70px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  color: #666666;
+}
+
+/* line 365, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input i {
+  transform: rotate(90deg);
+}
+
+/* line 368, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .icon-search {
+  position: absolute;
+  left: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+/* line 375, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .submit {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: #00a651;
+  color: #fff;
+  font-size: 24px;
+  width: 80px;
+  text-align: center;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  /* line 150, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area {
+    height: auto;
+  }
+  /* line 398, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-title {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 406, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-left-contents {
+    display: none;
+  }
+  /* line 410, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  /* line 414, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .title-top {
+    font-size: 18px;
+  }
+  /* line 425, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .form-control {
+    height: 60px;
+    line-height: 60px;
+    padding: 0 20px 0 40px;
+  }
+  /* line 431, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .icon-search {
+    left: 15px;
+  }
+  /* line 434, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-bottom-contents .banner-search-form .single-input .submit {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: #00a651;
+    color: #fff;
+    font-size: 24px;
+    width: 80px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 399px) {
+  /* line 473, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .banner-area .banner-right-contents .banner-title {
+    font-size: 35px;
+  }
+}
+
+/* line 484, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category {
+  background: #f1f6ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 15px;
+  transition: all 0.3s;
+}
+
+/* line 492, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category:hover {
+  transform: translateY(-10px);
+}
+
+/* line 496, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category .image {
+  height: 135px;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* line 507, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category .category-contents .category-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  padding: 30px 0 10px 0;
+}
+
+/* line 512, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category .category-contents .category-title a {
+  transition: all 0.3s ease;
+}
+
+/* line 516, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-area .category-child .single-category .category-contents .category-para {
+  font-size: 16px;
+  line-height: 34px;
+  padding-top: 20px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 484, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .category-area .category-child .single-category {
+    padding: 20px 10px;
+  }
+}
+
+/* line 533, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single {
+  padding: 20px;
+  border-radius: 10px;
+  background: #f1f6ff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.09);
+  margin: 15px;
+  overflow: hidden;
+}
+
+/* line 540, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-thumb {
+  position: relative;
+  z-index: 1;
+  display: block;
+  overflow: hidden;
+  height: 238px;
+  width: 100%;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+/* line 551, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .fav-icon {
+  color: #93a82d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  min-width: 30px;
+  min-height: 30px;
+  background: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+  border-radius: 3px;
+}
+
+/* line 567, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .location {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* line 576, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .location .single_location {
+  font-size: 12px;
+  display: inline-block;
+  color: #fff;
+  background-color: #93a82d;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* line 586, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 25px 0 20px;
+  padding-left: 0;
+}
+
+/* line 594, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* line 600, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list a {
+  transition: all 0.3s;
+}
+
+/* line 604, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .authors {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* line 609, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .thumb {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+/* line 615, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* line 621, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .thumb .notification-dot {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50px;
+  background: #00a651;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #fff;
+}
+
+/* line 633, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .author-title {
+  font-size: 16px;
+}
+
+/* line 636, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .author-tag .tag-list .reviews {
+  margin-left: 65px;
+}
+
+/* line 641, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .service-price {
+  margin: 20px 0 10px;
+}
+
+/* line 643, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .service-price .starting {
+  font-size: 12px;
+  color: #666666;
+}
+
+/* line 647, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .service-price .price {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 55px;
+}
+
+/* line 652, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-area .service-single .service-contents .service-price .price-hover {
+  color: #00a651;
+}
+
+/* line 662, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose {
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+/* line 667, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose .shapes img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -220px;
+  z-index: -1;
+}
+
+/* line 676, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose .why-choose-left .title {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 85px;
+}
+
+/* line 681, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose .why-choose-left p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  margin: 30px 0;
+}
+
+/* line 689, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose .why-choose-right .why-choose-single {
+  background: rgba(101, 96, 255, 0.08);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.4s;
+}
+
+/* line 695, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.why-choose .why-choose-right .why-choose-single .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 50%;
+  height: 95px;
+  width: 95px;
+  padding: 20px;
+  margin: 0 auto 20px;
+}
+
+@media (min-width: 1200px) {
+  /* line 712, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .why-choose .why-choose-left {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 718, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .why-choose .why-choose-left .title {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  /* line 722, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .why-choose .why-choose-left p {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  /* line 730, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .why-choose .why-choose-left .title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  /* line 734, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .why-choose .why-choose-left p {
+    font-size: 14px;
+  }
+}
+
+/* line 744, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single {
+  padding: 0;
+  background: #ffffff;
+}
+
+/* line 748, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single .location .single_location {
+  background-color: #00a651;
+}
+
+/* line 753, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single .service-contents {
+  padding: 25px;
+}
+
+/* line 756, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single .service-contents .service-price .starting {
+  font-size: 12px;
+  color: #666666;
+}
+
+/* line 760, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single .service-contents .service-price .price {
+  color: #93a82d;
+}
+
+/* line 764, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.job-area .service-single .service-contents .common-btn {
+  width: 100%;
+  background-color: #00a651;
+}
+
+/* line 774, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area {
+  background-color: #f1f6ff;
+}
+
+/* line 776, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile {
+  background-color: #fff;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.002);
+  border-radius: 5px;
+  text-align: center;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+}
+
+/* line 784, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile .thumb {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+/* line 794, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile .content-area-wrap {
+  min-height: 100px;
+}
+
+/* line 796, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile .content-area-wrap .seller-title {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+/* line 805, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile .content-area-wrap .seller-title .varified-tooltip {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  background-color: #00a651;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 5px;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+}
+
+/* line 824, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.provider-area .single-seller-profile .content-area-wrap .order-complete {
+  margin-top: 15px;
+  display: inline-block;
+  background-color: #1dbf731f;
+  border-radius: 5px;
+  padding: 5px 10px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* line 839, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer {
+  background-color: #333;
+}
+
+/* line 844, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single {
+  margin-bottom: 30px;
+}
+
+/* line 846, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-logo img {
+  max-width: 100%;
+  margin: auto;
+}
+
+/* line 850, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-text {
+  font-size: 16px;
+  line-height: 28px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+/* line 856, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+/* line 866, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-menu li a {
+  color: #ffffff;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+/* line 871, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-menu li a span {
+  color: #ffffff;
+  transition: all 0.3s ease;
+  margin-left: 30px;
+}
+
+/* line 875, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-menu li a span:hover {
+  margin-left: 25px;
+  color: #93a82d;
+}
+
+/* line 880, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-menu li a::before {
+  content: url("../images/down-arrow-hover-two.svg");
+  position: absolute;
+  left: 0;
+  transform: rotate(-90deg);
+  margin-right: 15px;
+  transition: all 0.3s ease;
+}
+
+/* line 895, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-address {
+  margin-bottom: 20px;
+}
+
+/* line 898, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-address li a {
+  display: flex;
+  padding-bottom: 15px;
+  color: #ffffff;
+}
+
+/* line 902, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-address li a i {
+  color: #93a82d !important;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* line 907, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-address li a span {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  display: block;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+}
+
+/* line 915, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-address li a span:hover {
+  letter-spacing: 1px;
+  color: #93a82d;
+}
+
+/* line 924, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-social a {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+/* line 928, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-social a i {
+  transition: all 0.3s ease;
+}
+
+/* line 931, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .footer-top .footer-contents .footer-single .footer-social a:hover i {
+  color: #93a82d;
+}
+
+/* line 939, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area {
+  border-top: 1px solid #d2d2d2;
+}
+
+/* line 942, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-list a {
+  font-size: 14px;
+  color: #ffffff;
+  position: relative;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+/* line 950, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-list a:not(:last-child)::before {
+  background: #ffffff;
+  position: absolute;
+  content: "";
+  height: 60%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2px;
+  width: 1px;
+}
+
+/* line 960, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-list a:hover {
+  color: #93a82d;
+}
+
+/* line 966, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-contents span {
+  font-size: 14px;
+  color: #dddddd;
+  text-align: center;
+}
+
+/* line 972, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-payment {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* line 978, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.footer .copyright-area .copyright-payment a:not(:last-child) {
+  margin-right: 10px;
+}
+
+@media (max-width: 991px) {
+  /* line 986, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .footer .copyright-area .copyright-list {
+    padding-bottom: 20px;
+  }
+  /* line 989, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .footer .copyright-area .copyright-payment {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 995, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .footer .copyright-area {
+    text-align: center;
+  }
+  /* line 997, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .footer .copyright-area .copyright-contents {
+    padding-bottom: 20px;
+  }
+  /* line 1000, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .footer .copyright-area .copyright-payment {
+    justify-content: center;
+  }
+}
+
+/* line 1015, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .single-category-service .single-select {
+  margin-bottom: 30px;
+}
+
+/* line 1018, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .single-category-service .single-select .nice-select {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 1px #ddd;
+  width: 100%;
+  color: #222222;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+}
+
+/* line 1027, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .single-category-service .single-select .nice-select::after {
+  border-bottom: 1px solid #666666;
+  border-right: 1px solid #666666;
+  height: 8px;
+  margin-top: -2px;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 8px;
+}
+
+/* line 1038, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .single-category-service .single-select .open {
+  border: 1px solid #ddd;
+}
+
+/* line 1040, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .single-category-service .single-select .open::after {
+  transform: translateY(-50%) rotate(-135deg);
+}
+
+/* line 1046, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-single {
+  padding: 0;
+  margin: 0;
+  background: #ffffff;
+}
+
+/* line 1051, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-single .service-contents {
+  padding: 25px;
+}
+
+/* line 1054, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-single .service-contents .service-price .starting {
+  font-size: 12px;
+  color: #666666;
+}
+
+/* line 1058, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-single .service-contents .service-price .price {
+  color: #00a651;
+}
+
+/* line 1065, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-pagination .pagination {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 1068, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-pagination .pagination li {
+  margin: 5px 10px;
+}
+
+/* line 1070, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-pagination .pagination li .page-link {
+  background: #fff;
+  color: #666666;
+  border: 1px solid;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+/* line 1080, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-pagination .pagination li .page-link:hover {
+  background: #93a82d;
+  color: #fff;
+}
+
+/* line 1087, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-pagination .pagination li.active .page-link {
+  background: #93a82d;
+  color: #fff;
+  border-color: #93a82d;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1098, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .category-service-area .service-single .service-contents .btn-wrapper {
+    flex-direction: column;
+  }
+  /* line 1100, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .category-service-area .service-single .service-contents .btn-wrapper a {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 1108, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .category-service-area .service-pagination {
+    margin-top: 30px;
+  }
+}
+
+/* line 1121, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .details-thumb .service-details-background-image {
+  height: 497px;
+  border-radius: 10px;
+}
+
+/* line 1126, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .details-tabs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  border-bottom: 2px solid #ddd;
+}
+
+/* line 1132, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .details-tabs li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999999;
+  padding-bottom: 20px;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+/* line 1139, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .details-tabs li:not(:last-child) {
+  margin-right: 50px;
+}
+
+@media (max-width: 375px) {
+  /* line 1143, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .details-tabs li:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+/* line 1148, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .details-tabs li.active {
+  border-bottom: 2px solid #93a82d;
+  color: #222222;
+  font-weight: 600;
+}
+
+/* line 1154, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content {
+  display: none;
+}
+
+/* line 1157, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .details-tap-para {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 5px;
+}
+
+/* line 1164, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* line 1168, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-thumb {
+  height: 80px;
+  min-width: 80px;
+  border-radius: 10px;
+  display: block;
+}
+
+/* line 1173, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-thumb img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 1180, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-content .title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+/* line 1187, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-content .about-seller-list {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* line 1191, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-content .about-seller-list .icon {
+  color: #93a82d;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* line 1196, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-content .about-seller-list .reviews {
+  margin-left: 10px;
+}
+
+/* line 1202, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box {
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* line 1206, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-box-list {
+  column-count: 2;
+}
+
+/* line 1208, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-box-list .box-list {
+  color: #999999;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+/* line 1213, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-box-list .box-list strong {
+  display: block;
+  color: #222222;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+/* line 1223, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-details-para {
+  font-size: 16px;
+  line-height: 26px;
+  color: #666666;
+}
+
+@media (max-width: 480px) {
+  /* line 1230, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content {
+    display: block;
+  }
+  /* line 1232, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .about-seller-flex-content .about-seller-thumb {
+    width: 80px;
+    margin-bottom: 15px;
+  }
+  /* line 1237, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box {
+    padding: 20px 10px;
+  }
+  /* line 1239, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-box-list {
+    column-count: 1;
+  }
+  /* line 1242, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .tab-content .details-content-tab .about-seller-tab .seller-details-box .seller-details-para {
+    font-size: 14px;
+  }
+}
+
+/* line 1249, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content .details-content-tab .about-review-tab .service-single {
+  margin-top: 30px !important;
+}
+
+/* line 1255, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .tab-content.active {
+  display: block;
+  animation: 1s fade-effects;
+}
+
+/* line 1260, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+/* line 1265, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .overview-benefits {
+  padding: 0;
+}
+
+/* line 1267, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .overview-benefits li {
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  padding-left: 30px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+/* line 1274, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .overview-benefits li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* line 1277, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .overview-benefits li::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 0;
+  background: #93a82d;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+/* line 1287, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .overview-single .overview-benefits li a:hover {
+  color: #93a82d;
+}
+
+@media (max-width: 575px) {
+  /* line 1293, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .overview-single .title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 1298, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .service-details-area .service-details-wrapper .faq-area {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+}
+
+/* line 1303, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-item {
+  border: none;
+}
+
+/* line 1306, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .faq-title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+}
+
+/* line 1311, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 1313, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-button:focus {
+  z-index: 3;
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 1319, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-button::after {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: auto;
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #666666;
+  padding-bottom: 25px;
+  background-image: none;
+  background-repeat: unset;
+  background-size: unset;
+  transition: all 0.3s ease;
+}
+
+/* line 1334, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #93a82d;
+  box-shadow: none;
+}
+
+/* line 1338, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-button:not(.collapsed)::after {
+  background-image: none;
+  transform: none;
+  content: "\f068";
+}
+
+/* line 1345, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-body {
+  padding: 15px 0 0;
+}
+
+/* line 1347, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-wrapper .faq-area .accordion-body .faq-para {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  padding: 5px;
+}
+
+/* line 1359, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package {
+  position: sticky;
+  top: 0;
+}
+
+/* line 1363, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages {
+  padding: 30px;
+  border: 1px solid rgba(221, 221, 221, 0.5);
+  border-radius: 10px;
+}
+
+/* line 1367, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .package-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* line 1371, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .package-price li {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+/* line 1380, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .details-available-price .summery-title .onlilne-special-list li {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+}
+
+/* line 1384, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .details-available-price .summery-title .onlilne-special-list li i {
+  color: #00a651;
+  font-size: 18px;
+  margin-right: 15px;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 1394, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .details-available-price .summery-title .available-list li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 12px;
+}
+
+/* line 1402, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .single-packages .details-available-price .summery-title .available-list li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  height: 18px;
+  width: 18px;
+  color: #93a82d;
+  border: 1px solid #93a82d;
+  border-radius: 50%;
+}
+
+/* line 1422, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .order-pagkages .single-order {
+  font-weight: 400;
+  color: #666666;
+  background: rgba(29, 191, 115, 0.2);
+  margin-top: 20px;
+  height: 80px;
+  border-radius: 10px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+}
+
+/* line 1434, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-details-area .service-details-package .order-pagkages .single-order i {
+  background: #93a82d;
+  color: #fff;
+  height: 27px;
+  width: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+/* line 1455, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper {
+  padding: 80px 100px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+/* line 1460, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .login-title {
+  font-size: 35px;
+  line-height: 55px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* line 1467, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .social-login-wrapper .bar-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* line 1472, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .social-login-wrapper .bar-wrap .bar {
+  display: inline-block;
+  border: 1px solid #ddd;
+  width: 100%;
+  height: 2px;
+  margin-top: 22px;
+}
+
+/* line 1479, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .social-login-wrapper .bar-wrap .or {
+  padding: 10px;
+  display: inline-block;
+  text-transform: initial;
+  color: #999;
+}
+
+/* line 1487, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .social-login-wrapper .login-with .login-btn {
+  display: block;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  padding: 10px;
+}
+
+/* line 1496, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.login-area .login-wrapper .social-login-wrapper .login-with .login-btn img {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+@media (max-width: 991px) {
+  /* line 1454, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .login-area {
+    padding: 40px 0 70px 0;
+  }
+  /* line 1506, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .login-area .login-wrapper {
+    padding: 70px 50px;
+  }
+  /* line 1508, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .login-area .login-wrapper .login-title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 1514, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .login-area .login-wrapper {
+    padding: 30px 10px;
+  }
+  /* line 1516, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .login-area .login-wrapper .login-title {
+    font-size: 25px;
+  }
+}
+
+/* line 1526, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .common-btn {
+  float: right;
+  border-radius: 0;
+  padding: 10px 25px;
+  margin: 40px 0 5px 10px;
+}
+
+/* line 1532, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .same-border {
+  border: 2px solid #93a82d;
+}
+
+/* line 1535, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+
+/* line 1542, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li {
+  border: 1px solid #00a651;
+  padding: 7px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  margin: 10px 0;
+}
+
+/* line 1551, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li .single-tabs-registration {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* line 1556, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li .single-tabs-registration .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 41px;
+  width: 41px;
+  border-radius: 50%;
+  background: #00a651;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* line 1568, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li .single-tabs-registration .contents .title {
+  color: #00a651;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin: 0;
+}
+
+/* line 1577, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li.active {
+  background: #93a82d;
+  border-color: #93a82d;
+}
+
+/* line 1580, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li.active::after {
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  content: "\f00c";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 27px;
+  width: 27px;
+  border: 2px solid #fff;
+  background: #93a82d;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: -14px;
+  right: -13px;
+}
+
+/* line 1599, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li.active .single-tabs-registration .icon {
+  background: #fff;
+  color: #93a82d;
+}
+
+/* line 1604, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .registration-tabs li.active .single-tabs-registration .contents .title {
+  color: #ffffff;
+}
+
+/* line 1614, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform {
+  position: relative;
+}
+
+/* line 1616, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* line 1622, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list li a {
+  font-size: 24px;
+  font-weight: 500;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+/* line 1636, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list li.active:not(:last-child) {
+  padding-right: 70px;
+}
+
+/* line 1640, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list li:not(:last-child) {
+  padding-right: 70px;
+}
+
+/* line 1642, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list li:not(:last-child) a::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: -55px;
+  background: #ddd;
+  height: 2px;
+  width: 40px;
+}
+
+/* line 1658, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list.step-list-two li.active a {
+  background: #93a82d;
+  color: #ffffff;
+}
+
+/* line 1661, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .registration-list.step-list-two li.active a::after {
+  background: #93a82d;
+}
+
+/* line 1669, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform fieldset {
+  background: #fff;
+  /* border: 0; */
+  border-radius: 0.5rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: none;
+}
+
+/* line 1679, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform fieldset.active {
+  display: block;
+}
+
+/* line 1683, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .register-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+}
+
+/* line 1689, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-info {
+  max-width: 730px;
+  margin: 0 auto;
+}
+
+/* line 1693, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-info .info-forms .single-forms {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* line 1697, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-info .info-forms .single-forms .input-single {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  /* line 1693, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .registration-area .tab-content .registration-form .msform .fieldset-info .info-forms .single-forms {
+    flex-direction: column;
+  }
+}
+
+/* line 1706, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-service {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* line 1710, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-service .info-service .single-category-service {
+  padding-top: 30px;
+}
+
+/* line 1713, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-service .info-service .single-category-service .single-select label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+/* line 1721, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-service .info-service .single-category-service:not(:last-child) .single-select .nice-select {
+  margin-bottom: 30px;
+}
+
+/* line 1729, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-condition {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+/* line 1733, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-condition .login-checkbox .checkbox-inlines {
+  gap: 20px;
+}
+
+/* line 1736, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.registration-area .tab-content .registration-form .msform .fieldset-condition .login-checkbox .checkbox-inlines .checkbox-label a {
+  color: #93a82d;
+  font-weight: 600;
+}
+
+/* line 1752, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .section-sub-title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+/* line 1758, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .category-area .load_more_button_warp {
+  margin-top: 60px;
+}
+
+/* line 1760, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .category-area .load_more_button_warp .common-btn {
+  border-radius: 25px;
+}
+
+/* line 1766, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-area .form-control {
+  height: 48px;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 48px;
+}
+
+/* line 1771, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.category-service-area .service-area .form-control:focus {
+  border-color: #dddddd;
+}
+
+/* line 1783, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area .contact-single {
+  text-align: center;
+  background: rgba(247, 244, 244, 0.5);
+  box-shadow: 0 0 10px rgba(148, 168, 1, 0.3);
+  padding: 30px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+/* line 1790, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area .contact-single .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #fff;
+  background: #00a651;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 1804, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area .contact-single .contact-contents .title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+/* line 1810, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area .contact-single .contact-contents .item-contents {
+  margin-top: 15px;
+}
+
+/* line 1812, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area .contact-single .contact-contents .item-contents .item {
+  display: block;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+/* line 1821, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area div[class*="col"]:nth-child(3n + 2) .contact-icon {
+  background: #ff6b2c;
+}
+
+/* line 1826, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.contact-details-area div[class*="col"]:nth-child(3n + 3) .contact-icon {
+  background: #93a82d;
+}
+
+/* line 1840, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: none;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* line 1853, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .thumb {
+  height: 120px;
+  min-width: 120px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+/* line 1859, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap {
+  min-height: unset;
+}
+
+/* line 1862, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .seller-title a {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+/* line 1867, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .seller-title .varified-tooltip {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+/* line 1875, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .profiles-review .order-completed {
+  font-size: 14px;
+  margin-left: 5px;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* line 1882, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .seller-social-links {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+/* line 1887, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .seller-social-links a {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+  color: #00a651;
+  border-radius: 50%;
+}
+
+/* line 1897, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .single-seller-profile .content-area-wrap .seller-social-links a:hover {
+  background-color: #00a651;
+  color: #fff;
+}
+
+/* line 1905, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-about {
+  padding: 0;
+  text-align: center;
+}
+
+/* line 1908, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-about li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+}
+
+/* line 1912, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-about li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* line 1915, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-about li span {
+  color: #222222;
+  font-weight: 500;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+/* line 1923, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* line 1929, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve {
+  background: #00a651;
+  border-radius: 10px;
+  height: 180px;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+/* line 1940, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve:nth-child(2n + 2) {
+  background: #93a82d;
+}
+
+/* line 1942, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve:nth-child(2n + 2) .icon {
+  color: #93a82d;
+}
+
+/* line 1946, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #fff;
+  color: #00a651;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+/* line 1959, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve .contents h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  color: #fff;
+}
+
+/* line 1965, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.banner-inner-area .profile-author-contents .profile-single-achieve .single-achieve .contents span {
+  line-height: 26px;
+  font-size: 18px;
+  color: #fff;
+  display: block;
+}
+
+/* line 1982, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents {
+  background-color: transparent !important;
+}
+
+/* line 1984, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile {
+  box-shadow: none;
+  border-radius: none;
+  text-align: left;
+  margin-bottom: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+  padding-bottom: 40px;
+}
+
+/* line 1995, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile:not(:last-child) {
+  border-bottom: 2px solid rgba(221, 221, 221, 0.5);
+}
+
+/* line 1999, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .thumb {
+  height: 80px;
+  min-width: 80px;
+  border-radius: 10px;
+  display: block;
+}
+
+/* line 2005, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .content-area-wrap {
+  min-height: unset;
+}
+
+/* line 2007, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .content-area-wrap .seller-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  justify-content: flex-start;
+}
+
+/* line 2013, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .content-area-wrap .seller-review-pera {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  margin-top: 20px;
+  line-height: 26px;
+}
+
+/* line 2020, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .content-area-wrap .review-date {
+  margin-top: 20px;
+  display: block;
+  color: #999999;
+}
+
+@media (max-width: 767px) {
+  /* line 2032, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  /* line 2035, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+  .review-seller-area .review-seller-wrapper .profile-author-contents .single-seller-profile .thumb {
+    margin: 0;
+  }
+}
+
+/* line 2046, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-slider-area {
+  overflow: hidden !important;
+}
+
+/* line 2049, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-slider {
+  position: relative;
+}
+
+/* line 2052, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-slider .slick-dots li {
+  transition: all 0.3s;
+}
+
+/* line 2054, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-slider .slick-dots li button:before {
+  font-size: 14px;
+  color: #93a82d;
+}
+
+/* line 2059, ../../../xampp/htdocs/Laravel/SystechDigital/SDL-Service-App/handyman/assets/sass/home.scss */
+.service-slider .slick-dots li.slick-active button:before {
+  color: #93a82d;
+}
+
+/*# sourceMappingURL=home.css.map */
+
+
